@@ -1,0 +1,33 @@
+body {
+  background: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 15px;
+}
+
+.wrapper {
+  background: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  max-width: 270px;
+  margin-top: 80px;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+  text-decoration: none;
+}
