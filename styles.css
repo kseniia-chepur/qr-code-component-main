@@ -1,7 +1,12 @@
 body {
+  min-height: 100vh;
   background: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -13,16 +18,16 @@ p {
   font-size: 15px;
 }
 
-.wrapper {
+.container {
   background: hsl(0, 0%, 100%);
   border-radius: 10px;
   max-width: 300px;
-  margin-top: 80px;
 }
 
 .attribution {
   font-size: 12px;
   text-align: center;
+  display: flex;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
